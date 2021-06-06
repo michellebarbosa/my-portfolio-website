@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Staatliches&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+  }
+  nav{
+    background: #184e68;
+    height: 70px;
+    color: cornsilk;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+  }
+  #nav{
+    float:right;
+    display: flex;
+    margin-right: 40px;
+padding-top: 2%;  }
+  body::before{
+    content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+    z-index: -1;
+    opacity: 15%;
+    background-image:
+   
+    url("https://miro.medium.com/max/1401/1*KID6ZNpfCBWHCutZzn2TbQ.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.static-txt{
+font-size: 60px;
+font-family: 'Noto Sans JP', sans-serif;
+text-align: center;
+padding-top: 200px;
+color: #cf6766;
+}
+
+.text {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+
+}
+
+.text::before {
+  content: " I  am  a";
+  width: 0%;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+  animation: typewriter 6s  infinite;
+  font-family: 'Staatliches', cursive;
+
+}
+
+
+@keyframes typewriter {
+
+  33% {
+    content: "Student";
+    width: 100%;
+    font-family: 'Staatliches', cursive;
+  }
+
+  
+  
+
+  
+  66% {
+    content: "Data Analyst";
+    width: 100%;
+    font-family: 'Staatliches', cursive;
+  }
+
+  
+ 
+
+  
+
+
+  90% {
+    content:"Novince Web Developer";
+    width: 100%;
+    font-family: 'Staatliches', cursive;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+#skills{
+  padding-top: 500px;
+  text-align: center;
+}
+#sql{
+  font-size:40px;
+
+}
+#java{
+  font-size: 35px;
+}
+#css{
+  display: inline;
+
+  font-size: 18px;
+}
+#html{
+  font-size: 28px;
+}
+#tableau{
+  font-size: 23px;
+}
+#csharp{
+  font-size: 13px;
+}
+#cpp{
+  font-size:24px;
+}
+#oracle{
+  font-size: 13px;
+}
+#python{
+  font-size: 33px;
+}
+#jquery{
+  font-size: 20px;
+}
+#wordcloud {
+  display: inline;
+  list-style-type: none;
+  width: 400px;
+}
+#wordcloud li {
+  list-style: none;
+  display: inline;
+}

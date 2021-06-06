@@ -98,44 +98,93 @@ color: #cf6766;
   text-align: center;
 }
 #sql{
-  font-size:40px;
+  font-size:60px;
+  color: rgb(105, 233, 105);
+
 
 }
 #java{
-  font-size: 35px;
+  font-size:75px;
+  color:#e69280;
+
 }
 #css{
-  display: inline;
 
-  font-size: 18px;
+  font-size: 50px;
+  color:rgb(42, 74, 255);
+
 }
 #html{
-  font-size: 28px;
+  font-size: 68px;
+  white-space: pre-line;
+  color:teal;
+
 }
 #tableau{
-  font-size: 23px;
+  font-size: 58px;
+  color: cornflowerblue;
+
 }
 #csharp{
-  font-size: 13px;
+  font-size: 48px;
+  color:red;
+
 }
 #cpp{
-  font-size:24px;
+  font-size:64px;
+  color: plum;
+
 }
 #oracle{
-  font-size: 13px;
+  font-size: 48px;
+  color:#e69280;
+
 }
 #python{
-  font-size: 33px;
+  font-size: 73px;
+  color:#000184;
+
 }
 #jquery{
-  font-size: 20px;
+  font-size: 60px;
+color: violet;
+}
+#ml{
+  font-size:65px;
+  color:rgb(80, 9, 80);
+
+}
+#writing{
+  font-size:59px;
+  color:#f4cede;
+
+}
+#aws{
+  font-size:50px;
+color:#4fcede;
 }
 #wordcloud {
   display: inline;
   list-style-type: none;
-  width: 400px;
+padding-bottom: 300px;  
+
 }
 #wordcloud li {
   list-style: none;
   display: inline;
+
+}
+#wordcloud ul{
+  padding-bottom: 300px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }

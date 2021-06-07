@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Noto+Sans+TC:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Staatliches&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Noto+Sans+TC:wght@300&family=Staatliches&display=swap');
 *{
     margin:0;
     padding:0;
@@ -36,11 +36,27 @@ padding-top: 2%;  }
   background-size: cover;
 }
 .static-txt{
-font-size: 60px;
+font-size: 100px;
 font-family: 'Noto Sans JP', sans-serif;
 text-align: center;
-padding-top: 200px;
+padding-top: 300px;
 color: #cf6766;
+}
+#skills-title{
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: underline;
+  padding-bottom: 90px;
+  padding-top: 40px;
+  margin-top: -40px;
+
+}
+#projects-title{
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+color:white;
+margin-top: -40px;
+
 }
 
 .text {
@@ -95,7 +111,7 @@ color: #cf6766;
 }
 #sql{
   font-size:60px;
-  color: rgb(105, 233, 105);
+  color:#6ba292;
 
 
 }
@@ -107,59 +123,64 @@ color: #cf6766;
 #css{
 
   font-size: 50px;
-  color:rgb(42, 74, 255);
+  color:#dd614a;
 
 }
 #html{
   font-size: 68px;
   white-space: pre-line;
-  color:teal;
+  color:#ff9b71;
 
 }
 #tableau{
   font-size: 58px;
-  color: cornflowerblue;
+  color:#20ccbee1;
 
 }
 #csharp{
   font-size: 48px;
-  color:red;
+  color:#20ccbee1;
   
 
 }
 #cpp{
   font-size:64px;
-  color: plum;
+  color:#6ba292;
 
 }
 #oracle{
   font-size: 48px;
-  color:#e69280;
+  color:#dd614a;
 
 }
 #python{
   font-size: 73px;
-  color:#000184;
+  color:#ff9b71;
 
 }
 #jquery{
   font-size: 60px;
-color: violet;
+color:#dd614a;
 }
 #ml{
   font-size:65px;
-  color:rgb(80, 9, 80);
+  color:#20ccbee1;
 
 }
 #writing{
   font-size:59px;
-  color:#f4cede;
+  color:#ffdc76;
 
 }
 #aws{
   font-size:50px;
-color:#4fcede;
+color:#ffdc76;
 }
+a.data:hover {background:black;}
+a.app:hover {background:black;}
+a.web:hover {background:black;}
+
+
 #wordcloud {
   display: inline;
   list-style-type: none;
@@ -177,7 +198,6 @@ padding-bottom: 300px;
 
 .flex-container {
   display: flex;
-
   background-color: blue;
   width:100%;
   height: 400px;
@@ -188,9 +208,8 @@ padding-bottom: 300px;
 .flex-container > div {
   background-color: #f1f1f1;
   margin: 10px;
-  padding: 10px;
   font-size: 30px;
-  width: 200px;
+  width: 400px;
   height: 300px;
 
 }
@@ -207,9 +226,8 @@ padding-bottom: 300px;
 .flex-containertwo > div {
   background-color: #f1f1f1;
   margin: 10px;
-  padding: 10px;
   font-size: 30px;
-  width: 200px;
+  width: 400px;
   height: 300px;
 
 }
@@ -228,9 +246,8 @@ padding-bottom: 300px;
 .flex-containerthree > div {
   background-color: #f1f1f1;
   margin: 10px;
-  padding: 10px;
   font-size: 30px;
-  width: 200px;
+  width: 400px;
   height: 300px;
 
 }
@@ -252,10 +269,26 @@ padding-right: 50px;
 }
 
 
-
-
-footer{
+#joinme{
   text-align: center;
-  height: 500px;
+  height: 250px;
   background: #66fcf1;
+  font-family: 'Staatliches', cursive;  font-size: 100px;
+}
+#profile-link{
+text-align: center;
+ background: #66fcf1;
+ font-size: 50px;
+ justify-content: center;
+
+
+}
+
+div img{
+  height: 300px;
+  width: 100%;
+  flex-grow: 1;
+  border-color: green;
+  object-fit: cover;
+  vertical-align: bottom;
 }
